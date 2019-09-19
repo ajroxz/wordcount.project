@@ -1,0 +1,16 @@
+<h1>good :)</h1>
+
+<a href="{% url 'home' %}">Start again</a>
+
+<h2>There are total {{count}} words</h2>
+
+{{atext}}
+
+{% for a,b in words %}
+
+    <br />
+    {{a}}
+    <br />
+    {{b}}
+
+{% endfor %}
